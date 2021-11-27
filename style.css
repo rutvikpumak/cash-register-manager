@@ -1,11 +1,114 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+@media screen and (max-width: 550px) {
+    body .container {
+        margin: none;
+        width: 90vw;
+        height: 125vh;
+        display: inline-flex;
+    }
+    body .tableChange {
+        font-size: 0.7rem;
+        
+    }
+  
+}
+
+body {
+
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.heading {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.heading,
+.description {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.container {
+    background-color: #E5E7EB;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    width:50vw
+    width: 50vw;
+    height: 98vh;
+    border-radius: 10px;
 }
-.tableChange{
+
+#billAmt,
+#cashGiven {
+    margin: 0px auto;
+    display: block;
+    width: 30%;
+    padding: 1rem 1rem;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #F3F4F6;
+}
+
+.tableChange {
     border: 1px solid black;
+    margin: 1rem;
+    font-size: 1.5rem;
 }
-tr{
+
+.no-of-notes {
+    text-align: center;
+}
+
+tr {
     border-bottom: 1px solid black;
+}
+
+label {
+    text-align: center;
+    margin: 10px;
+    padding: 1rem 1rem;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 30px auto;
+}
+
+.description {
+    font-size: 1.5rem;
+    padding: 0rem 1.5rem;
+}
+
+#checkBtn,
+#resetBtn {
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    border: 0.5px solid black;
+    background-color: #E5E7EB;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+#checkBtn:hover,
+#resetBtn:hover {
+    color: white;
+    background-color: #9CA3AF;
+}
+
+#error-message {
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.5rem;
 }
