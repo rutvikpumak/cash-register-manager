@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
 
-@media screen and (max-width:550px) {
+@media (max-width:550px) {
     body .container {
-        margin: none;
+        margin-right: none;
         width: 78vw;
         height: 125vh;
         display:inline-flex;
-       
+        overflow-y: hidden;
     }
     body .tableChange {
     
