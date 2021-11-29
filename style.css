@@ -13,7 +13,7 @@
     
         font-size: 0.4rem;
     }
-  
+
 }
 
 body {
@@ -35,7 +35,7 @@ table,
 th,
 td {
     padding: 10px;
-    border: 1px solid black;
+    border: 1.5px solid black;
     border-collapse: collapse;
 }
 
@@ -45,7 +45,7 @@ td {
     display: flex;
     flex-direction: column;
     width: 50vw;
-    height: 98vh;
+    height: 120vh;
     border-radius: 10px;
 }
 
@@ -66,16 +66,14 @@ td {
 .tableChange {
     border: 1px solid black;
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    bottom: 0;
 }
 
 .no-of-notes {
     text-align: center;
 }
 
-tr {
-    border-bottom: 1px solid black;
-}
 
 label {
     text-align: center;
@@ -111,6 +109,6 @@ label {
 
 #error-message {
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
     font-size: 1.5rem;
 }
